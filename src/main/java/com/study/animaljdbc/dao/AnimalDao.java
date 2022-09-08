@@ -2,8 +2,6 @@ package com.study.animaljdbc.dao;
 
 import com.study.animaljdbc.domain.Animal;
 import com.study.animaljdbc.dto.AnimalUpdateRequestDto;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.jdbc.core.RowMapper;
 import org.springframework.stereotype.Repository;
@@ -12,6 +10,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.util.List;
 
+// Spring Jdbc - JdbcTemplate 적용
 @Repository
 public class AnimalDao {
 

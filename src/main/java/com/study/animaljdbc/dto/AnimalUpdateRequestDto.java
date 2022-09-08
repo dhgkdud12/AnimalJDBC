@@ -1,9 +1,9 @@
 package com.study.animaljdbc.dto;
 
 public class AnimalUpdateRequestDto {
-    String name;
-    String type;
-    Integer age;
+    private String name;
+    private String type;
+    private Integer age;
 
     public String getName() {
         return name;

@@ -2,10 +2,10 @@ package com.study.animaljdbc.domain;
 
 // VO
 public class Animal {
-    Integer id;
-    String name;
-    String type;
-    Integer age;
+    private Integer id;
+    private String name;
+    private String type;
+    private Integer age;
 
     public Animal(Integer id, String name, String type, Integer age) {
         this.id = id;
